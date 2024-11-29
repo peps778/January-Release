@@ -1,0 +1,17 @@
+/project-folder
+│
+├── /assets
+│   └── /images
+│       └── (your image files)
+│
+├── /css
+│   └── styles.css  (your custom CSS file, if needed)
+│
+├── /js
+│   └── script.js   (your JavaScript file)
+│
+├── index.html      (your main HTML file)
+│
+├── tailwind.config.js  (optional, if you want to customize Tailwind settings)
+├── postcss.config.js   (optional, for PostCSS setup with Tailwind)
+└── package.json        (optional, if using npm for Tailwind setup)
