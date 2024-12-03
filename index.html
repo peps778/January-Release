@@ -8,8 +8,55 @@
     <link href="css/input.css" rel="stylesheet">
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul & Buding</title>
+    <link href="assets/output.css" rel="stylesheet">
+    <link href="css/input.css" rel="stylesheet">
+    <style>
+        /* Make iframe fill the screen and remove borders */
+        iframe {
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            border: none; /* Remove default border */
+            display: block; /* Ensure it behaves like a block element */
+        }
 
-    <!-- Navbar -->
+        /* Make sure the body or container has full height to fit iframe */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Make sure body and html fill the height */
+        }
+
+        /* Optional: Ensure the body doesn't have any padding */
+        body {
+            overflow: hidden; /* Hide any scrollbars in body */
+        }
+
+        /* Optional: Add a wrapper to handle iframe in specific container */
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Wrapper to hold the iframe -->
+    <div class="iframe-container">
+        <!-- Embed the nav component HTML using iframe -->
+        <iframe src="components/nav/index.html" title="Navigation"></iframe>
+    </div>
+
+</body>
+</html>
+
+    
    
 
 </body>
