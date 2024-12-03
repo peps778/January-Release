@@ -1,11 +1,18 @@
 module.exports = {
   content: [
-    "./index.html",         // Make sure to include your HTML file
-    "./js/**/*.js",         // If you're using JavaScript files, include them
-    "./css/**/*.css"        // Include your custom CSS if you plan to add custom styles
+    "./**/*.html",          // All HTML files in the project, including those in subdirectories
+    "./**/*.js",            // All JavaScript files in the project, including those in subdirectories
+    "./**/*.css",           // All CSS files in the project, including those in subdirectories
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-pink': '#FDA2A7',  
+        'custom-blue': '#1F3449',  
+        'custom-black': '#000000',
+        'custom-background': '#FBEBDF',  
+      },
+    },
   },
   plugins: [],
 }
