@@ -1,8 +1,8 @@
 module.exports = {
   content: [
-    "./**/*.html",          // All HTML files in the project, including those in subdirectories
-    "./**/*.js",            // All JavaScript files in the project, including those in subdirectories
-    "./**/*.css",           // All CSS files in the project, including those in subdirectories
+    "./**/**/*.html",          
+    "./**/**/*.js",            
+    "./**/**/*.css",            
   ],
   theme: {
     extend: {
