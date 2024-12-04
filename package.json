@@ -4,8 +4,15 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15"
   },
-
   "scripts": {
     "build": "tailwindcss build css/input.css -o assets/output.css"
-  }
+  },
+  "name": "january-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

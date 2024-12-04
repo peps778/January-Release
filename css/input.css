@@ -5,3 +5,30 @@
 body {
     @apply bg-custom-background;
 }
+
+/* Make iframe fill the screen and remove borders */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* Make body and html fill the height */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Optional: Ensure no scrollbars */
+body {
+    overflow: hidden;
+}
+
+/* Full-height container for iframes */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Adjust as needed for better layout */
+}
