@@ -2,17 +2,17 @@
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.15"
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.16"
   },
- "scripts": {
-  "build": "tailwindcss -i ./css/input.css -o ./css/output.css",
-  "watch": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
-},
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./css/output.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
   "name": "january-release",
   "version": "1.0.0",
   "description": "",
   "main": "postcss.config.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC"
