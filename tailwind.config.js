@@ -11,6 +11,7 @@ module.exports = {
         'custom-blue': '#1F3449',  
         'custom-black': '#000000',
         'custom-background': '#FBEBDF',  
+        'custom-background': '#FF4F4FE',
       },
     },
   },
