@@ -10,3 +10,7 @@
 #first-box, #second-box {
     width: 50%;
 }
+
+#content-1 {
+    margin: 0 auto;
+}
