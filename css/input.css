@@ -16,5 +16,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  
+    #second-box {
+        margin-top: 18rem;
+        
+    }
+
+    #first-box {
+        margin-bottom: 10rem;
+    }
 }
